@@ -57,7 +57,10 @@
    "provides" : {
       "Crypt::Password::StretchedHash" : {
          "file" : "lib/Crypt/Password/StretchedHash.pm",
-         "version" : "0.01"
+         "version" : "0.02"
+      },
+      "Crypt::Password::StretchedHash::HashInfo" : {
+         "file" : "lib/Crypt/Password/StretchedHash/HashInfo.pm"
       }
    },
    "release_status" : "stable",
@@ -71,5 +74,5 @@
          "web" : "https://github.com/ritou/p5-Crypt-Password-StretchedHash"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
