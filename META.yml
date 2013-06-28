@@ -29,16 +29,17 @@ no_index:
 provides:
   Crypt::Password::StretchedHash:
     file: lib/Crypt/Password/StretchedHash.pm
-    version: 0.03
+    version: 0.04
   Crypt::Password::StretchedHash::HashInfo:
     file: lib/Crypt/Password/StretchedHash/HashInfo.pm
 requires:
   Carp: 0
   MIME::Base64: 0
   Params::Validate: 0
+  parent: 0
   perl: 5.008005
 resources:
   bugtracker: https://github.com/ritou/p5-Crypt-Password-StretchedHash/issues
   homepage: https://github.com/ritou/p5-Crypt-Password-StretchedHash
   repository: https://github.com/ritou/p5-Crypt-Password-StretchedHash.git
-version: 0.03
+version: 0.04

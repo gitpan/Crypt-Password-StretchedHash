@@ -10,7 +10,7 @@ t/00_compile.t
 t/01_crypt.t
 t/02_verify.t
 t/03_hashinfo.t
-t/04_hashinfo.t
+t/04_with_hashinfo.t
 t/lib/TestHashInfo.pm
 META.yml
 MANIFEST
